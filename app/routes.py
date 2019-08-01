@@ -17,9 +17,9 @@ def random():
 @app.route('/meme_generator')
 def meme_generator():
   return render_template("meme_generator.html")
-@app.route('/need_help')
+@app.route('/videos')
 def need_help():
-    return render_template("need_help.html")
+    return render_template("videos.html")
 @app.route('/birthday_month', methods=['GET', 'POST'])
 def birthday_month():
    if request.method == 'GET':
