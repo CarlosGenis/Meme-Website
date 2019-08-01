@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="static/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <div class="container grey-text text-lighten-5 border center">
+        <script type="text/javascript" src="static/js/gifs.js"></script>
+        <link rel="stylesheet" href="static/gifs.css">
         <h2>Welcome to our Funny Page! </h2>
         <br>
         <title>Funny</title>
@@ -13,7 +15,45 @@
 <body>
 
     <body class="black">
-        <img src="/static/images/emoji.jpg" alt="emoji"></img><br>
-        <img src="/static/images/rock.jpg" alt="rock" height="240" width="240"></img><br>
-   </body>
+        <br>
+        <br>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="/static/images/emoji.jpg" style="width:45%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="/static/images/rock.jpg" style="width:40%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="img_mountains_wide.jpg" style="width:45%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="img_mountains_wide.jpg" style="width:45%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="img_mountains_wide.jpg" style="width:45%">
+            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </body>
+
 </html>
