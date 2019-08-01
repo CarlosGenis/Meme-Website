@@ -1,0 +1,15 @@
+.sansserif {
+ font-family: Courier New;
+}
+.border {
+   border: 8px solid powderblue !important;
+}
+.bigtext {
+   font-size: 20px !important;
+}
+.bigtext1 {
+   font-size: 17px !important;
+}
+.height {
+   padding-bottom: 100px !important;
+}
